@@ -5,7 +5,7 @@
   variables model.
 }
 \description{
-  This function builds the 4 basic matrices that describe a model
+  This function builds the 8 basic matrices that describe a model
   alongside with a model-implied covariance matrix based on the
   starting values of the parameters in the model passed as an argument.
   This is the workinghorse of the package.

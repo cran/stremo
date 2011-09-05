@@ -16,8 +16,7 @@ fit.nlminb(model, sigma, n, fun = "fml")
 }
 \arguments{
   \item{model}{
-    A character vector containing a model specification as in
-    \code{\link{lavaan}}.
+    A character vector containing a model specification.
 }
   \item{sigma}{
     Population covariance matrix.
@@ -39,7 +38,7 @@ fit.nlminb(model, sigma, n, fun = "fml")
   of starting values for the parameters to be estimated and use lavaan's
   internal representation of a SEM model as a starting point. After that, the
   chosen function calls an optimiser, \code{\link{nlminb}},  which will try to converge to a
-  solution given a set of starting values for the parameter estimates and a population
+  solution given a set of parameter estimates and a population
   covariance matrix. Then, it will try to calculate standard errors from
   the Hessian matrix, z-values for each estimate and its correspondent
   p-values. The next step is to calculate the fit of the model to,

@@ -659,11 +659,10 @@ underidentified.")
     out$op[out$op == "~"] <- "-->"
     out$op[out$op == "~~"] <- "<->"
     out$op[out$op == "=~"] <- "-->"
-    out$free <- ifelse(out$free > 0L, "free", "fixed")
+    out$free <- ifelse(out$free > 0, "free", "fixed")
     out$sig <- rep("*", length(out$lhs))
     out$sig[out$p >= 0.05] <- "ns"
     out$sig[is.na(out$p)] <- NA
-    out$est[out$free == 0L] <- NA
 
     res$model <- data.frame(out, stringsAsFactors = FALSE)
     colnames(res$model) <- c("var1", "op", "var2", "type", "start", "est", "se",

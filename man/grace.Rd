@@ -22,10 +22,8 @@ grace.model
   syntax.
 }
 \note{
-  Our model syntax does not converge in \code{\link{lavaan}} or
-  \code{\link{stremo}}, but we
-  have included it anyway so people can poke around and try it
-  themselves. The model we tried to
+  Our model syntax does not converge in \code{lavaan} or \code{stremo}, but we
+  have included it anyway for learning purposes. The model we tried to
   fit is on page 81, figure 7. The covariance matrix is on page 76,
   table 2. There were 190 observations.
 }

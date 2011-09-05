@@ -8,7 +8,7 @@
   \code{BETA(model)}.
 }
 \usage{
-II(model)
+    II(model)
 }
 \arguments{
   \item{model}{

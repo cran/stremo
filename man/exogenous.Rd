@@ -8,7 +8,7 @@
   exogenous variables in a given model.
 }
 \usage{
-exogenous(model)
+  exogenous(model)
 }
 \arguments{
   \item{model}{

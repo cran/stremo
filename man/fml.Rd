@@ -20,10 +20,6 @@ fml(sigma, sigma.hat)
 \seealso{
   \code{\link{fgls}}
 }
-\note{
-  Returns \code{Inf} if the model implied covariance matrix is not
-  positive-definite.
-}
 \examples{
 
 \dontrun{

@@ -1,10 +1,10 @@
 \name{GLS}
 \alias{fgls}
 \title{
-  Generalised least squares fitting function.
+  Generalised least squares.
 }
 \description{
-  GLS fitting function to be passed to \code{\link{fit.nlminb}}.
+  GLS fitting function.
 }
 \usage{
 fgls(sigma, sigma.hat)

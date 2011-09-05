@@ -12,10 +12,10 @@
   paularense} in rock and in lithosol.
 }
 \usage{
-data(albert)
-albert.litho.cov
-albert.rock.cov
-albert.model
+  data(albert)
+  albert.litho.cov
+  albert.rock.cov
+  albert.model
 }
 \format{
   Two covariance matrices with the number of observations as an

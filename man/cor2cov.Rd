@@ -4,7 +4,7 @@
   Covariance matrix from a correlation matrix.
 }
 \description{
-  Build a covariance matrix from a correlation matrix and 
+  Build a covariance matrix from a correlation matrix and variables
   standard deviations.
 }
 \usage{

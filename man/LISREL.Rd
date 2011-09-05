@@ -11,7 +11,7 @@
 \description{
   These functions describe the structure of a path or latent variable
   model given a set of starting values. All fixed, free, and constrained
-  (not yet implemented) parameter estimates go in them.
+  (not yet implemented) go in them.
 }
 \usage{
 BETA(model)

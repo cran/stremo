@@ -7,7 +7,7 @@
   Factor analysis using principal components as the extraction method.
 }
 \usage{
-factanal.prcomp(covmat, nfactors = NULL)
+    factanal.prcomp(covmat, nfactors = NULL)
 }
 \arguments{
   \item{covmat}{

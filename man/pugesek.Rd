@@ -10,7 +10,7 @@
 }
 \description{
   Pugesek and Tomer reanalyse this classic dataset using structural
-  equation modelling.
+  equation modeling.
 }
 \usage{
 data(pugesek)

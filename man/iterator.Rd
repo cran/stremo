@@ -1,10 +1,10 @@
 \name{iterator}
 \alias{iterator}
 \title{
-  Minimisation of a fitting function.
+  Minimization of a fitting function.
 }
 \description{
-  Function passed to an optimiser to minimise a fitting function.
+  Function passed to an optimizer to minimize a fitting function.
 }
 \usage{
 iterator(pars, model, sigma, matrep, fun = "fml")
@@ -23,7 +23,7 @@ iterator(pars, model, sigma, matrep, fun = "fml")
     Model skeleton, as given by \code{\link{matrix.representation}}.
 }
   \item{fun}{
-    Fitting function to be minimised.
+    Fitting function to be minimized.
 }
 }
 \details{
@@ -31,7 +31,7 @@ iterator(pars, model, sigma, matrep, fun = "fml")
   argument to \code{\link{nlminb}}.
 }
 \value{
-  Value of the statistics to be minimised given a set of parameter
+  Value of the statistics to be minimized given a set of parameter
   estimates. 
 }
 \seealso{

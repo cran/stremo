@@ -20,7 +20,7 @@ boot.lavaan(fitted.model, n)
   }
 }
 \details{
-  Steps (following Shipley 2002):
+  Steps:
 
   1. Fit a model normally using the arguments 'sample.cov' and
   'sample.nobs' instead of 'data';
@@ -43,10 +43,6 @@ boot.lavaan(fitted.model, n)
   \item{z}{Bootstrapped z values}
   \item{p.est}{P values of the bootstrapped coefficients}
   \item{coefs}{Matrix with the values of all coefficients in all runs}
-}
-\references{
-  Shipley, B. 2002. Cause and Correlation in Biology. Cambridge
-  University Press.
 }
 \examples{
 \dontrun{

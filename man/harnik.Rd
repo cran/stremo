@@ -13,21 +13,22 @@
   in fossil bivalves. 
 }
 \usage{
-data(harnik)
-karnik.model.A
-karnik.model.B
-karnik.model.B
+  data(harnik)
+  harnik.model.A
+  harnik.model.B
+  harnik.model.B
 }
 \format{
   A data frame with 108 observations on 8 variables and three character
   vectors containing model syntaxes.
 }
 \note{
-  The models are in page 2 (figure 1). All models converge, but we
-  cannot replicate the path coefficients in model A. The dataset
-  is included as it was made available in the supporting information.
-  Data transformations should be done following the manuscript in order
-  to get the same results. Model C involves groups (superfamilies).
+  The models are in page 2 (figure 1). All models converge. The
+  coefficients in model A come from three independent linear
+  regressions. The dataset is included as it was made available in the
+  supporting information.  Data transformations should be done following
+  the manuscript in order to get the same results. Model C involves
+  groups (superfamilies).
 
   Data transformation:
 
@@ -71,11 +72,14 @@ harnik.t$range.extent <- scale(harnik.t$range.extent, center = TRUE, scale =
                                TRUE)
 harnik.t$body.size <- scale(harnik.t$body.size, center = TRUE, scale = TRUE)
 
-harnik.model.A.fit <- sem(harnik.model.A, data = harnik.t)
+harnik.model.A.1.fit <- sem(harnik.model.A[[1]], data = harnik.t)
+harnik.model.A.2.fit <- sem(harnik.model.A[[2]], data = harnik.t)
+harnik.model.A.3.fit <- sem(harnik.model.A[[3]], data = harnik.t)
 harnik.model.B.fit <- sem(harnik.model.B, data = harnik.t)
 harnik.model.C.fit <- sem(harnik.model.C, data = harnik.t, group =
-                          "superfamily", group.equal = "regressions", group.partial = "duration
-~ body.size") 
+        "superfamily", 
+        group.equal = "regressions", 
+        group.partial = "duration ~ body.size") 
 
 summary(harnik.model.A.fit)
 summary(harnik.model.B.fit)

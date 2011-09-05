@@ -4,7 +4,7 @@
   Do some basic checking to see if a matrix is positive-definite.
 }
 \description{
-  A covariance matrix used in structural equation modelling should be
+  A covariance matrix used in structural equation modeling should be
   positive-definite, as it is going to be inverted during estimation and
   fit. This function checks whether a Hermitian matrix is
   positive-definite.
@@ -31,7 +31,7 @@ is.pd(covmat)
   5. Check whether the determinant is positive
 }
 \value{
-  \code{TRUE} or \code{FALSE}.
+  TRUE or FALSE.
 }
 \seealso{
   \code{\link{is.within.bounds}} and \code{\link{is.hermitian}}.

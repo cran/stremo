@@ -1,7 +1,7 @@
 \name{RMSEA}
 \alias{RMSEA}
 \title{
-  Root Mean Square Error of Approximation.
+  RMSEA
 }
 \description{
   RMSEA approximate fit index
@@ -18,7 +18,7 @@ RMSEA(fitted.model)
 \value{
   \item{RMSEA}{The RMSEA index}
   \item{ci}{Confidence interval for the index}
-  \item{p}{P-value}
+  \item{RMSEA}{P-value}
 }
 \note{
   This function was heavily influenced by code in \code{\link{lavaan}}.

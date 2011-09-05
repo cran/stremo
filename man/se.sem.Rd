@@ -5,7 +5,7 @@
 }
 \description{
   This function computes the standard errors of a set of parameter
-  estimates based on the observed information matrix.
+  estimates based on the information matrix.
 }
 \usage{
 se.sem(hess, n)
@@ -19,7 +19,5 @@ se.sem(hess, n)
 }
 }
 \value{
-  \item{trust}{Logical indicating whether the second-order derivative
-    was invertible.}
-  \item{values}{Standard errors.}
+  A vector of standard errors.
 }

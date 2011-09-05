@@ -3,15 +3,11 @@
 \alias{stremo}
 \docType{package}
 \title{
-  Learning structural equation modelling.
+  Learning structural equation modeling.
 }
 \description{
   Functions and toy data to play around whilst learning structural
-  equation modelling. Some functions were heavily influenced by code in 
-  \code{\link{lavaan}}. This package was built to aid the process of
-  learning SEM. We tried to make the code very expressive and most
-  functions are exposed to the end user. Refer to \code{\link{lavaan}}
-  or 'OpenMX' for more serious analyses.
+  equation modeling. xx
 }
 \details{
 \tabular{ll}{
@@ -37,10 +33,8 @@ LazyLoad: \tab yes\cr
 }
 \keyword{ package }
 \examples{
-\dontrun{
 data(albert)
 cat(albert.model)
 albert.litho.cov
 fit <- fit.nlminb(albert.model, albert.litho.cov, 107)
-}
 }

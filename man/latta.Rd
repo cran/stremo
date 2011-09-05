@@ -11,16 +11,16 @@
   contrasting environments in \emph{Avena barbata}.
 }
 \description{
-  Covariance matrices and syntax of the models in the paper by Latta and McCain
+  Covariance matrices and syntax of the models in the paper by Latta & McCain
   2009.
 }
 \usage{
-data(latta)
-latta.greenhouse.cov
-latta.hopland.cov
-latta.sierra.cov
-latta.greenhouse.model
-latta.field.model
+  data(latta)
+  latta.greenhouse.cov
+  latta.hopland.cov
+  latta.sierra.cov
+  latta.greenhouse.model
+  latta.field.model
 }
 \format{
   Three covariance matrices and two character vectors containing data
